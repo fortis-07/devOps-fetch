@@ -1,0 +1,14 @@
+[Unit]
+Description=DevOpsFetch Monitoring Service
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/devopsfetch_logger
+Restart=always
+User=root
+StandardOutput=append:/var/log/devopsfetch_service.log
+StandardError=append:/var/log/devopsfetch_service.log
+
+
+[Install]
+WantedBy=multi-user.target
