@@ -1,4 +1,4 @@
-# DevOpsFetch
+# DevOpsFetch using BashScripting
 
 DevOpsFetch is a powerful command-line tool designed for DevOps professionals to quickly retrieve and display system information, including active ports, Docker containers, Nginx configurations, user logins, and system activities within specified time ranges.
 
