@@ -24,6 +24,7 @@ DevOpsFetch is a powerful command-line tool designed for DevOps professionals to
    - [Help](#help)
 4. [Logging Mechanism](#logging-mechanism)
 5. [Troubleshooting](#troubleshooting)
+6. [Notes](#Notes)
 
 ## Installation
 
@@ -155,7 +156,8 @@ sudo cat /usr/local/bin/devopsfetch
 sudo systemctl restart devopsfetch.service
 ```
 
-### Notes
+## Notes
+
 Configuration and Permissions
 * Verify Paths and Permissions: Ensure all file paths are accurate and accessible. Confirm you have the appropriate permissions to execute the script and access required system information.
 
